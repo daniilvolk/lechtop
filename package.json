@@ -1,0 +1,18 @@
+{
+  "name": "lechtop-premium-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LechTop premium tech/gaming e-commerce SPA with auth, roles, admin CRUD, cart, orders and barcode tools.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "gaming",
+    "barcode",
+    "spa"
+  ],
+  "author": "Codex",
+  "license": "UNLICENSED"
+}
