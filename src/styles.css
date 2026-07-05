@@ -719,6 +719,12 @@ input:focus, select:focus, textarea:focus {
 .footer div { display: grid; gap: 8px; }
 .footer strong { color: var(--text); }
 
+.ltr-text {
+  direction: ltr;
+  unicode-bidi: isolate;
+  display: inline-block;
+}
+
 html[dir="rtl"] body {
   text-align: right;
 }

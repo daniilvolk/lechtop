@@ -35,7 +35,7 @@ export function shell(content) {
     <main>${content}</main>
     <footer class="footer">
       <div><strong>LechTop</strong><p>${t("footerText")}</p></div>
-      <div><span>lechko24@gmail.com</span><span>+972546208935</span><span>Motzkin 9 Netanya</span><span>4246009</span></div>
+      <div><span class="ltr-text">lechko24@gmail.com</span><span class="ltr-text">+972546208935</span><span class="ltr-text">Motzkin 9 Netanya</span><span class="ltr-text">4246009</span></div>
       <div><a href="#/catalog/pc">${t("catalog")}</a><a href="#/builder">${t("builder")}</a><a href="#/admin">${t("admin")}</a></div>
     </footer>
   `;
