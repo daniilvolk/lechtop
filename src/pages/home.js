@@ -8,6 +8,7 @@ export function homePage() {
   return `
     <section class="hero">
       <div class="hero-copy">
+        <div class="hero-logo-card"><img src="/public/lechtop-logo.jpg" alt="LechTop logo" /><span>lech-top</span></div>
         <span class="kicker">Premium tech / gaming store</span>
         <h1>LechTop</h1>
         <p>${t("heroSubtitle")}</p>

@@ -14,9 +14,9 @@ export function checkoutPage() {
     <section class="checkout-layout">
       <form class="panel form-grid" id="checkoutForm">
         ${input("name", t("name"), user?.name || "", "text", "required")}
-        ${input("phone", t("phone"), "+972 54-", "tel", "required")}
+        ${input("phone", t("phone"), "+972546208935", "tel", "required")}
         ${input("email", t("email"), user?.email || "", "email", "required")}
-        ${input("address", t("address"), "HaArba'a 28, Tel Aviv", "text", "required")}
+        ${input("address", t("address"), "Motzkin 9 Netanya 4246009", "text", "required")}
         ${textarea("comment", t("comment"))}
         <label><span>${t("delivery")}</span><select name="delivery"><option>שליח עד הבית</option><option>איסוף עצמי מתל אביב</option><option>משלוח אקספרס</option></select></label>
         <label><span>${t("payment")}</span><select name="payment"><option>כרטיס אשראי</option><option>Bit / PayBox</option><option>העברה בנקאית</option></select></label>

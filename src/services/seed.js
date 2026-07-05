@@ -170,7 +170,7 @@ export const orders = [
   {
     id: "LT-1001",
     userId: "u-user",
-    customer: { name: "Demo Customer", phone: "+972 54-777-2233", email: "user@lechtop.dev", address: "Dizengoff 99, Tel Aviv-Yafo", comment: "Delivery after 18:00" },
+    customer: { name: "Demo Customer", phone: "+972546208935", email: "user@lechtop.dev", address: "Motzkin 9 Netanya 4246009", comment: "Delivery after 18:00" },
     delivery: "שליח עד הבית",
     payment: "כרטיס אשראי",
     items: [{ productId: "p-neon-r7", title: "LechTop Neon R7", price: 15490, quantity: 1 }],

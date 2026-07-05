@@ -75,12 +75,24 @@ main { min-height: 70vh; }
 }
 
 .brand-mark {
-  width: 30px;
-  height: 30px;
+  width: 34px;
+  height: 34px;
   border-radius: 8px;
   background: linear-gradient(135deg, var(--red), var(--blue));
   box-shadow: 0 0 28px rgba(34, 211, 238, 0.45);
   animation: brandPulse 3.8s ease-in-out infinite;
+  padding: 2px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+
+.brand-mark img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+  background: white;
 }
 
 .nav {
@@ -255,6 +267,34 @@ main { min-height: 70vh; }
 }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 26px; }
+
+.hero-logo-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  margin-bottom: 18px;
+  padding: 8px 12px 8px 8px;
+  border: 1px solid rgba(34, 211, 238, 0.22);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+  box-shadow: 0 18px 54px rgba(34, 211, 238, 0.08);
+  backdrop-filter: blur(12px);
+}
+
+.hero-logo-card img {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+  border-radius: 7px;
+  background: white;
+}
+
+.hero-logo-card span {
+  color: var(--text);
+  font-weight: 900;
+  letter-spacing: 0;
+}
 
 .hero-rig {
   position: relative;
@@ -851,6 +891,7 @@ html[dir="rtl"] .fav-row:hover {
 @media (max-width: 620px) {
   .header { padding-inline: 12px; }
   .brand span:last-child { display: none; }
+  .hero-logo-card span { display: inline; }
   .hero-copy h1 { font-size: 4rem; }
   .product-grid, .feature-band, .reason-grid, .stat-grid { grid-template-columns: 1fr; }
   .card-actions, .detail-actions, .search-box, .inline-form { grid-template-columns: 1fr; }

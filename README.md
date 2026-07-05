@@ -23,7 +23,7 @@ Open: http://localhost:8081
 - Language persists per logged-in user in `user.language`.
 - Guest language persists in `localStorage`.
 - Currency: Israeli shekel, `ILS`, rendered as `₪`.
-- Israeli contact data: `+972 54-777-2233`, `support@lechtop.co.il`, Tel Aviv address.
+- Israeli contact data: `+972546208935`, `lechko24@gmail.com`, `Motzkin 9 Netanya`, `4246009`.
 - Product barcodes use Israeli-style `729...` prefixes.
 
 ## Implemented

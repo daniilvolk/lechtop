@@ -37,7 +37,7 @@ export function builderPage() {
         <div class="compat-warning" id="compatWarning">${t("compatibilityText")}</div>
         <h2>${t("checkout")}</h2>
         ${input("name", t("name"), "", "text", "required")}
-        ${input("phone", t("phone"), "+972 54-", "tel", "required")}
+        ${input("phone", t("phone"), "+972546208935", "tel", "required")}
         ${input("email", t("email"), "", "email", "required")}
         ${input("budget", t("priceTo"), "", "number")}
         ${input("purpose", "Purpose", "", "text")}
